@@ -92,6 +92,11 @@ arithmetic-progression jumps (e.g. 2,171 steps in one step). Combined with the
 fact that landmines only occur near powers of 10, this lets the computation
 follow paths to ~10^84 terms.
 
+Concrete anchors: the first choice point (fork) occurs at
+a(412987860) = 19999999918, i.e. only after ~4.1 x 10^8 terms does the first
+binary decision arise. The sequence A367620 was discovered by David W. Wilson
+in 2007.
+
 **How a bit is certified — the pigeonhole argument.** A fork on the infinite
 path has an infinite subtree, so at least one of its two children has an
 infinite subtree (if both were finite, the fork's subtree would be finite,
