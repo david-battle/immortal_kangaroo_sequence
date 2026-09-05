@@ -15,6 +15,13 @@ paths; OEIS A121805, A367341, A367620, A399179).
 - `ancestor_note.md` — deep-dive on the unique-ancestor closed form
   (`n = m - (10a + b)`, `a = (m - b) mod 10`) and the 50 roots.
 
+## Sibling repo
+
+The P vs NP discussion that grew out of the AC section of the notes has been
+split off into the sibling `p_vs_np` repo (including the AC framing as
+context). The AC subsection in the notes remains here as it also documents the
+kangaroo proof's need for only dependent choice.
+
 ## Operating norms
 
 - The assistant makes commits when asked; the user performs the final push
