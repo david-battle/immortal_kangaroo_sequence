@@ -1,0 +1,241 @@
+No kangaroos were harmed in the making of this video.
+Brady, this is one of Eric Angelini's really greatest sequences of all. It's called the comma sequence. Why is it
+called a comma sequence? Well, it depends on the commas between the terms.
+Take any old sequence uh squares 149 uh what's the next one? 25 and so on. In computer jargon these days, you would
+call that a commaepparated variables CSV.
+So if you've used like uh spreadsheets, you can save them as CSVs.
+Exactly. Yes. Yes. It's a very common thing. Eric Angelini's idea was all right, take that sequence and look at
+those commas and for each comma he's going to define something called the comma separator. what it is. You look at
+the comma and you look at the digit to the left and the digit to the right and you write it down. It's 14. The comma
+separator for that comma is 14. You just look at the digit just to the left and just to the right and it's 49.
+And then 91 and then 62 and so on. So you can do that for any sequence. In
+fact, any sequence in the OIS is a comma separated list and um and then you could you could spawn another one from it like that.
+You could spawn another one from it and keep going. Another thing you can do when you have a sequence if if somebody asks you in the hall, here's a sequence.
+Can you guess what the next term is? The first thing you do is you look at the differences between the terms. If that's
+S, we usually call it delta of S, delta for difference. And what you do is you look at the the amount by which the sequence grows at each term. So from one
+to four it's grown by three. From four to nine it's grown by five. 9 to 16 it's grown by seven and so on. And you can see what the pattern is. You just get
+the odd numbers here. And if we'd begun with zero we'd get a one there. So that's the difference sequence. Eric
+Angelini said, "Look, choose a sequence such that the comma sequence derived
+from it is the same as the differences." Can we do that?
+Yeah. Yeah. And with the usual rules, no repeats.
+You want an infinite sequence, positive numbers, and always pick the smallest, simplest choice. And we're going to
+begin with one. Put commas down separating the terms. All right, why not? We always do that. And I'll tell you the next term is 12
+and then a comma and so on. And let me explain the definition. The definition is if you look at the comma separators.
+So that comma is surrounded by ones.
+This comma is surrounded by two and and something. We don't know what to put here. And I'll show you how to get the sequence by figuring out what goes after
+the 12. We also look at the differences between the terms. And the reason I chose 12 is that the difference here is 11. And that matches the comma sequence.
+Good. That must always happen. So what are we going to put after the 12? Well, one thing for sure is the comma
+separator is going to be 20some. And it could be 20, 21, all the way up to 29.
+There's only How could it be 20? Can we have 20?
+Could it start with a zero or No, it can't actually be 20. But but I I mean yeah unless we allowed zero and or
+so on but you're right absolutely a good observation there are only nine things you have to check um 21 up to 29 and but
+you can see it's going to give a number here which is 20 between 20 and 29 and when we add it to that to get this this
+minus this has to be 20some. So this plus this has to be the next term.
+Now when we add 20 something to 12, we're probably going to get 30 something. So we can make a pretty reasonable guess. And if we're wrong,
+we'll just add one to it. But that we can guess that the next term begins with the three because that's tentatively
+what you get when you add 20 something to 12. And all right well if it is three that makes the comma separator number
+23. And then we can then we can do the rest of it. We we say um 12 + 23 is 35.
+And sure enough you check 12 and 35 is 23. And there's the next term. And we keep going like that. All right. What's the next g going to be? It's going to be
+50some because we know it begins with a five. And we're already up to 35. And when we add 50some to 35, we're going to get 80 something or maybe 90 something.
+And I seem to remember it's going to be 90 something. And if it's 90 something, the common number is 59. All right. And
+what does that tell us about the next term? 5 + 9 is 14. 3 + 5 + 1 is uh nine.
+Okay. 94.
+Check. That minus that is 59. And so that's the sequence. Let me do let me do a couple more because you'll see how it stabilizes. All right, put the comma.
+Start writing the comma number and we know the next term is going to beund and something. We add 40 something to 94.
+We're going to get 10 and something for sure. We're not going to get 200 and we're not going to we're not going to get anything under 100. The next number
+is going to begin it's going to be 10 and something. It's going to begin with a one. So that means we know what the comma separator number is and we can get the next term by adding and we get one.
+We get 135. Good. Let's do another one.
+You'll see what's next. Well 135 ends in a five. The comma separate a number there. And we can be pretty sure that
+we're not going to get above 200 when we add 50 something to 100. And so it's going to begin with a one. So it's 51.
+And then um we get six 186. And that's now I should tell you so so the fact the comma separator
+removes middle digits it removes everything keeps thing under keeps things under control doesn't it does it means the jump from one to
+the term to the next is somewhere between one and 99 it's a two-digit number if if if we if this number was 30
+the common number would be zero some it would be a single-digit number if that had been 30 the common number would have been nine okay
+09 so if we get zero at the end of a number.
+At the beginning of a yeah, at the end of one number, the next number loses a digit. It's a singledigit number. So
+these jumps along are always between 1 and 99. And when we get to big numbers,
+these numbers get very very big. The jumps are all tiny in comparison with 10 to the 11 or
+whatever it is. I was going to ask like you were kind of doing little puzzles there to to figure out each number. Does it ever get to a point where the puzzle can't be solved?
+Oh yes, absolutely. Good question. Very good question, Brady. I'll show you. But let's go back to it. Depends on what you
+start with. We started with one and we chug along blah blah blah blah blah. And um Eric Angelini didn't know what would happen, but he asked the gang and I
+think it was Edwin Clark computed it out and he found that after 2.1 million terms, it stops because there's no
+possibility for the next term. It's after two one. It's it's about 2 million.
+You get to You don't know what the last term is by chance? it. I can certainly do because
+it's what kills the kangaroo. When I'm thinking about this, these jumps are quite small and we're
+walking along the number line which I think is a path through the desert somewhere in Victoria. Victoria, Australia.
+Victoria, Australia, of course. And um there are kangaroos around. There's a kangaroo that's hopping along the path and it can run into trouble if it lands
+on some special numbers which I call landmines. Unfortunately, it's very sad, but it didn't actually happen. No
+kangaroos were harmed in the making of this video. But the kangaroo makes small steps. That's the point. It never It's
+jumps are tiny. So, the first landmine you ever see it it's uh nine repeated six times four five. That's a landmine.
+This sequence starting at one hits this after about 2 million terms. I'll tell you the secret. When the last two digits
+add up to nine and all the other digits are nines, that's a landmine and there's no next term.
+Let me show you an example of that.
+Suppose we'd begun with three instead of one. So the comma separator number for three is going to be three something, 30
+something. And when we add 30 something to three, we're going to get something pretty close to 33, 35 or something.
+It's going to be 30 something. So the comma, the next term is going to be 30 something. And that means I don't know
+what digit to put there yet, but because we know the common separator number is 33, the difference um between that term
+and that term is 33 and therefore that has to be 36. Check. Okay. All right. We've made one jump of the kangaroo.
+What's the next term? Well, we know the comma separator number begins with six.
+You work it out. If it's 61, for example, then you add 61 to 36 and you
+get 97. That's no good. If it's 61, that has to be a one. Yeah. And it's not a one. And there's no way.
+None of the nine digits work. This dies.
+This is a landmine. Oops. It's a number because that added to nine. That is a nine and you got a string of an empty
+string of nines before it and that's a landmine. Bang. Unfortunate poor kangaroo.
+So there doesn't have to be a nine in front of it. No, any number of nines. Including zero nines.
+Including zero nines. Those and exactly those are the landmines. And so if you
+start off with one, it goes for 2,137453 steps and it lands on a landmine of 6945.
+If you start with three, it goes for two steps and it it gets to 36 and it dies.
+If you started with a two, it goes on much longer. It goes for um 2 * 10 14
+terms and it hits a number with 14 98. I see here Neil on your piece of paper if we start with four, five and six. Yes.
+They all go for quite a long time but then the landmine eventually comes. Yes.
+Do we know seven or eight or is that is that is that as much as we know what you've shown?
+We know a lot. We know now that they all die. There's no infinite sequence. But I will show you with a trivial a very
+small variation. We can get an infinite sequence. But we don't know exactly what it is. And the axiom of choice comes in
+as you'll see just in a minute. Okay. So what actually happens? I'd like to
+show you a little graphic and this is log paper along the the x axis. It starts there are groups which are powers
+of 10. It goes the first section of a couple of inches goes from one to 10.
+Then from 10 to 100, 100 to a,000 a thousand. So each each block is a between two successive powers of 10.
+Those are the steps. We imagine we're in the desert and there's a long long path of numbered steps. And we're going to
+start at one step. We initially we started at one remember and we went we hopped along and after quite a long time
+after two million steps we hit a landmine. If you start with three you get to 36.
+And I've marked the landmines here with red dots. Every red dot if you if if and I thinking of this as a kangaroo. I say
+a kangaroo specifically because we're in Australia and it makes limited steps.
+It's not um a robot that can make arbitrary large. It can only jump anywhere from 1 to 99 steps in one hop.
+So Neil, those landmines you've marked there down the bottom with the red dots that we can all see, they're are they just any number that fits that construction you told me about before.
+That's right.
+It doesn't necessarily mean that landmine ever comes into play. It just is a potential landmine.
+It's just a potential landmine. It's a number which is um a number who's a two-digit number adding up to the um
+nine like 18 or 36 or 81. There are eight of them. Okay? Or you could put
+any number of nines in front of that. So in each block there are eight red dots.
+They're the landmines. And initially between one and 100, you can see they're separated. Well, once you get to 10, you have to start worrying because now we're
+in two-digit numbers. And we know there's there are landmines with two digits. 18 happens to be the first and that's that first red dot. And there are
+seven other red dots. They're the landmines. And but when we get out to close to a thousand, there are still only eight of them and they're all
+concentrated. They all are nine 81 or something. And they're all very close together near the thousand mark. When we
+get to 10,000, you can't really tell them apart. They're all clumped together here. And and so this explains in a way
+the the erratic behavior of this because you're hopping along and once you get going there's a lot there there's a long
+space of safety safety before you have to worry. But even so you can make an estimate of what the chances are of hitting a landmine.
+And the fact that there there are only eight in the last hundred suggests that the chance of hitting a landmine should be about eight in a 100. Eight over 100.
+But it's it's actually rather more than that. If you do it properly, if you get
+past the first landmine, you've still got to get past all the others. So if you make a model thinking of the
+kangaroo hopping along it's going in the clear but it's come to another group between two powers and 10 another minefield
+a potential minefield doesn't arise until you get towards the very end but once you're in that minefield he doesn't
+have any choice because his his path is determined by the rules. There's no option for the poor kangaroo. He he has
+he's his jump is controlled by the comma separator number. And if we look at the count carefully, how many of them get
+through? Well, 12 of them don't and 88 of them do. So, the chance of dying is
+12 over 100 according to this. It's a slightly oversimplified model.
+And obviously, you hit the first minefield early on, but the minefields get further and further apart.
+Yeah. They're only at the very last 100 steps in in a big power of 10. And so your expected lifetime is um is 10 to
+the um 100 over 12 to the 8 10^ the 8.3.
+So if we were to imagine picking a random start the chance of getting through the number of decades numbers of
+powers of 10 that you get through would be 8.33 100 over 12. That kind of explains what
+was going on with this list. What this rather naive argument showed that the average if you if you pick a starting
+number at random this is not rigorous at all. Um but if you pick a starting number at random [clears throat] expected number of steps before you die
+is about 10 to the 8.3 and that is actually pretty close to what you see. So it's not a bad not a bad estimate.
+Okay. We then tried to prove that had always happened. And we I should say this was a a collaboration between Eric
+Angelini and me, Michael Branicki, Giovani Rester, and David Wilson, David W. Wilson. And we ended up writing this
+up. This is actually some work that's been going on for a number of years, but we finally collected all the results
+together and wrote it up and the paper appeared last year. And it says you will always eventually hit a mine no matter what your start number.
+We wish we know that we believed that was true but we couldn't prove it. We could look at other bases where things
+are a lot easier. And in base three we were able to in base two things go on forever. Base two is true is different
+and it's easy and you'll you'll have fun doing it in base two. There are just two possible paths for the kangaroo and they're both infinite in base two.
+you you work out the comma separator comma with uh and and either side of it on the left of it it's a binary number
+so you it's either zero or one after the comma it's a one because all binary numbers begin with one except zero all right so it's easy to work out in base
+two and the kangaroo lives and there are two different paths through the desert that it could take depending on whether it's one mod 6 or minus one mod 6 but in
+base three we were able to prove by an enormously difficult computer aided
+um proof that no matter where you start in base three, the kangaroo dies.
+And it was such a horrible proof. I don't even want to describe it. We sort of basically looked at all possibilities. And we didn't even try to
+do it for base 10 because it would have been so horrendous. But two graduate students at Bertkas um managed to do it and they programmed up a general version of our proof.
+Not totally general, but they managed to get a computer aided proof that all the all the kangaroo sequences, the comma
+sequences die in base 3, 4,5 up to 643.
+But they didn't get a general proof, but they did prove in base 10 that every sequence dies. And that means even if I started arbitrarily high and jump and
+skipped past a bunch of minefields by starting with some 20digit number, I'm still going to hit a minefield out there somewhere.
+You absolutely are in base 10. Yeah. And we conjecture any base bigger than two.
+But but it's an open question in in general, but we know for base 10 for sure that you die. But there's a small variation
+in the definition of this sequence that enables you to live forever. And it's pretty interesting. I wonder could we have another piece of paper?
+Yep. [music] You're talking about kangaroos living forever.
+They're the immortal kangaroos.
+But we have to change the rule a tiny bit. So you remember the crucial thing in um the original comma sequence was
+for each comma you get the comma separator and and the rule is the difference between two terms must be
+equal to the comma separator and in fact you saw that when we got to 36 there was no possibility for the next
+term but usually there's just one but in rare cases there's a choice and the first time there's a choice suppose
+Suppose we start at 14. The nice thing by the way um is that this is a memoryless process. What comes after 14
+is independent of what be came before 14. It's a very convenient simple way to compute it. Once you have a number to
+get the next term, all you need to do is look at that number. You don't have to worry about the things that came before.
+But suppose we we got to 14. Suppose we started at 14. If we put down here 1
+plus 4 is five, the most likely next term and the legal next term because it's the lowest. It's the lowest.
+Um and then that makes the comma separator 45 plus uh 14 is 59.
+However, so under so Neil just just to clarify.
+So so under the original algorithm you taught me we have to choose.
+We have to choose. There are two choices in this case. There are never more than two choices.
+Um there's either zero, one or two choices. But there is a second alternative. It might be if you add
+14 to 46, you get 60. So the next digit has changed. The comma separator is now
+46. 14 + 46 is 60. Check. So there are two choices. So if we were looking at a
+graph of the possibilities, it happens occasionally that there's a choice. There's never more
+than two choices. And sometimes there are no choices when we hit a landmine.
+But um if we're allowed to make a choice when we when we hit one of these special
+numbers that have two children, then um we can keep going. If this path might
+after a few million steps die and this path might die but another path might keep going. We are officially required
+to pick the smallest number. The firstborn is the official uh heir to the throne. But if we could choose the other
+um brother, the larger brother, we can dodge the landmines.
+And does that give us a path to infinity? We do. It does, but we don't know what it is. And it is extremely interesting.
+Is there an algorithm to know which one to pick? The younger or the older each time? Presumably, it's not always the younger or the older like That's right. It's a a binary sequence.
+Zero means pick the smaller. One picks the larger. And it's a sequence that's in the OIS now, but we don't know what
+it is. I know about 54 terms of it. So we know the first I don't know 10^ the 54 terms of the the immortal sequence.
+We don't we don't actually know it's unique but we know a lot about it and we and we know it is it we know it does lead to immortality. There is at least one immortal path.
+This one that's in the OAS that I'll put on the screen. This immortal sequence is this just for starting with two in base 10.
+Yeah. Well I was coming to that.
+Yes. Oh, sure. I'm asking the right questions.
+Yeah, that's a very good question. All right. So, um, in this is this is a graph where we put down every number in
+the world and and indicate sometimes it's two children and sometimes a single child and this graph and if it dies the
+path just comes to an end. The first thing we can work out is trace it back.
+And with this graph we can show that every path eventually comes back to a number between 1 and 99. No matter where
+we start, pick any number you like. Look at its ancestors in the child graph and it'll be a number between one and 99.
+There are actually only 50 50 choices for the start, you know, because some of
+them go have two terms less than 99. And so the in fact there are 50 components connected components in this graph.
+Okay. And each one has a starting point and then it branches. It it's technically it's called a tree. And and Neil in this tree that you sketched
+for me just for illustrative purposes the forks were reasonably frequent. Are the forks rare? Are they the forks in
+the road rare occurrences or are they very rare? Yes. I can and there's a list of them and I could show it to you. It's very similar to and but different from
+the list of landmines the numbers that have twin two children. So we end up with 50 trees but infinitely no every
+number appears here. So one of those trees must be infinite because if they were all finite there would only be finite numbers
+finitely many branches in the graph. But we know every single number in the world, every positive integer has an ancestor between one and 99.
+So they're only and in fact there only 50 different starts. So every number in the world has an ancestor that you can think of them
+as 50 different eaves that generate all the numbers. All the numbers all infinitely many integers come back to
+one of these 50. Therefore, one of these 50 people has infinitely many children.
+Because if they all had finitely many children, the graph would be finite. But it's infinite. Every number appears. Why is it 50 choices and not one to 99?
+Because there are a couple of the the the two things inside less than 100.
+Okay. Of course, there's something now called Kernig's lema that says when that happens, if you
+have a tree which only branches finitely at each point, there's no point where infinitely, it splits infinitely. If it's only finitely many, then there is
+an infinite path in that tree. And in order to prove this, it involves kerning lema, which involves the axiom of choice.
+It this is not a trivial matter. We at this point we bring in a sledgehammer.
+It's a consequence of Zanelo Frankle plus axiom of choice to prove curling lema and it's not constructive. We don't
+know how to do it. We know there's at least one path that goes to infinity and you have to make as you observed each
+time it's a choice. So a sequence of zeros and ones that tells you what to do and it's a sequence in the OIS and we
+don't know what it is. We know it exists and we know well it probably doesn't end presumably the the sequence. No, but it could have it has a rule.
+I've told you one rule, but it does it have a a simple rule. It could well have a simple rule. It could be when you get to a number that's that's um a multiple
+of uh say 101. You always take the upper path. There could be like an algorithm.
+There could be. Well, there is an algorithm. I've just told you what it is. um uh um do the axiom of choose the
+axiom of choice. You just call on um you know the magician to give you the next term. That's the algorithm, but it's not effective.
+I'd love to know how many of the numbers between 1 and 99 h lead to that finish line. Like only
+I was going to I was coming to that. We expect like three died instantly. We followed all except the start of 20. If you start with 20, it goes to infinity.
+We know it goes to infinity because if you start at any other number less than 99, you die. So we checked we only had
+to check there are 50 components to this graph. 50 trees. Oh, so you've checked everything.
+We we checked all 49 of them and followed them until death until they died. We followed all the branches of
+all of all the um 49 trees. So 20 is the magic number to start.
+20 is the magic number. And and I can tell you you know 20. All right. What's the next number? 20 comma. Well the next
+com number the comma separator number is is zero something. And so when you add
+zero something to 20 you're going to get 20 something. So that has to be um the next digit has to be two. The comma
+separator number has to be two. And so the next term is 22. So 20 goes to 22
+and so on. And it goes on forever if you make the right choices. And we don't know how to make the right choices.
+But but you have to start with 20. That's the winning.
+You have to start with 20. And I can tell you the first um something like 50 odd choices. When you're going along
+that path, you know when you get to a a parent that has two children and I can tell you which person to choose. So
+there there are three things actually that would be nice to know. One is given the start what's the actual length of
+the path before it dies. We don't know that. I gave you three examples of you know start with three it goes for two
+steps what if you start with K how many steps that's we don't know how to do that except by doing it there's no formula for it we don't have a simple
+proof that in any base bigger than two every path will eventually die in the original thing
+just up to 600 and something 640 something or something like that yeah and the other thing is we we don't
+know how to dodge the axim of choice in finding the infinite path, the immortal the immortal kangaroo path.
+We're in the Cleveland Wildlife Park in Adelaide in South Australia. I'm really
+excited to found a walabe because just before I left England, I read a paper about walabes and surprisingly about walabbees and methane.
+
+Sync to video time
