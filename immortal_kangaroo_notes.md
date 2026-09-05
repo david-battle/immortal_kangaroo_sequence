@@ -69,6 +69,38 @@ a *child* has exactly one parent), and the 50 roots.
   This is non-constructive: it needs ZF + AC and gives no way to find the
   path. So we know an immortal path exists but cannot effectively compute it.
 
+### AC: a clean "for" example, and the symmetric "against" example
+
+The kangaroo is a crisp illustration of why one *might want* the Axiom of
+Choice: it grants non-constructive existence of the immortal path. The
+mirror-image argument *against* full AC is the **Banach–Tarski paradox** and
+its engine, the **Vitali set**, where choice forces some subset of the circle
+to have no well-defined length:
+
+- Partition the unit circle by `x ~ y` iff one is a rational rotation of the
+  other. Pick one representative per class (that's the AC move) to get a
+  Vitali set `V`.
+- Rational translates of `V` tile the circle; by additivity its "length" must
+  equal a countable sum of equal terms, which is impossible unless it is 0 —
+  yet a sum of 0s can't be the circle's circumference. So `V` is
+  non-measurable. Banach–Tarski then reassembles a ball into two copies from
+  finitely many such pieces.
+
+Both examples are *consistent* facts about choice, not contradictions: ZF alone
+doesn't settle them, and you may consistently add AC *or* "all sets are
+Lebesgue measurable" (Solovay's model). The contrast:
+
+| | Immortal kangaroo | Vitali set / Banach–Tarski |
+|---|---|---|
+| What AC does | Proves existence of an infinite path (nice) | Produces pathological, non-measurable sets (weird) |
+| Why | Non-constructive branch in a finitely-branching tree | Non-constructive selection, breaks measurability |
+| Strength needed | Only the **axiom of dependent choice (DC)** | Stronger fragment of choice |
+
+Key nuance: the kangaroo proof needs only **DC**, a weak fragment of AC, so
+"pick a branch" can be satisfied without the full choice that Banach–Tarski
+needs. Accepting DC while rejecting full AC keeps both the useful existence
+theorem and Lebesgue measurability — a common middle-ground position.
+
 ## 5. Uniqueness is an open question
 
 - At least one immortal path exists; **it is not known whether it is unique.**
