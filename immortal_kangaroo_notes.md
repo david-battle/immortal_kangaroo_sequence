@@ -178,7 +178,137 @@ beyond its certificate's range is not.
 - A367338 — comma-successor of n.
 - A121805's cross-refs give the fast-computation programs.
 
-## 9. References
+## 9. Digression: AC, P vs NP, and "new axioms" (from discussion)
+
+These are notes from a conversation that grew out of the AC discussion above;
+they stray from the comma sequence but record the reasoning, including the
+corrections the discussion forced.
+
+### 9.1 AC is irrelevant to P vs NP
+
+- P vs NP is a statement about **finite objects**: "∃ TM M, ∃ polynomial p,
+  ∀ x, M decides SAT within p(|x|)". It is a **Σ⁰₂ arithmetic sentence**.
+- AC only governs infinite/high-cardinality set-theoretic operations; it never
+  touches a finite computation. Arithmetic statements are **absolute**: their
+  truth is fixed by ℕ alone, independent of the set-theoretic universe. So
+  AC (or any fragment, even none) cannot change the truth of P=NP.
+- **Shoenfield absoluteness**: every Σ¹₂ sentence (hence every arithmetic
+  sentence) provable in ZFC is already provable in ZF. So no proof of P vs NP
+  can essentially depend on choice. The door "prove it with choice but not
+  without" is closed.
+- Caveat: Shoenfield covers ZFC-vs-ZF only. *Beyond* ZFC, strong axioms can
+  decide some arithmetic sentences (e.g. an inaccessible proves Con(ZFC), a
+  Π⁰₁ sentence). Whether any natural large-cardinal axiom decides P vs NP is
+  **genuinely open**.
+- Contrast with our earlier examples: as the objects become more finite, choice
+  goes from essential (kangaroo/DC) → optional (Banach–Tarski) → irrelevant
+  (P vs NP).
+
+### 9.2 Forcing is powerless; independence would be arithmetic, not CH-like
+
+- P vs NP is **forcing-absolute** (arithmetic). Unlike CH, no forcing extension
+  changes its truth. So if it is independent, the independence is *not*
+  "CH-like" (a genuine choice about the set universe); it is **arithmetic
+  incompleteness** — a failure of ZFC about the single structure ℕ, which has a
+  determinate fact of the matter.
+- This is the crux that separates P vs NP from AC/CH: AC and CH are
+  **constitutional** choices about the shape of the set universe (both sides
+  coherent and productive); P vs NP is a **matter of fact about ℕ**.
+
+### 9.3 "Make P ≠ NP a new axiom" — the case against and the correction
+
+Initial (too-strong) claim: "We resolve matters of fact by proof, not by
+amendment." **This is false, and Gödel's G refutes it**: G is a true, Π⁰₁,
+arithmetic matter of fact, unprovable in PA, resolvable only by moving to a
+stronger system (PA + Con(PA), or ZFC). So amendment genuinely is how some
+arithmetic facts get resolved. The real distinction is **principled amendment
+vs ad hoc stipulation**, not "provable vs amendable."
+
+**Why amending for G is principled (and P≠NP initially seemed ad hoc):**
+- *Self-justifying*: Con(PA) vouches for the very system it extends; accepting
+  it is compelled by believing PA coherent, not a bet on a contested fact.
+- *Cascading*: it climbs a tower (PA ⊂ PA+Con(PA) ⊂ ... ⊂ ZFC ⊂ ...), a general
+  reflection schema, each rung productive and revealing a new target.
+- *Amendment supplies axioms; the fact then becomes provable in the new system.*
+  It's not stipulating the fact; it's finding the next principle under which the
+  fact is a theorem.
+
+**Why P≠NP-as-axiom seemed ad hoc by the same test:**
+- *Not self-justifying*: its truth is precisely what's in question.
+- *Terminal, not cascading*: no new "P'≠NP" appears, no tower, no general schema.
+- *No principled host*: no known natural general principle has P≠NP as a
+  consequence.
+
+**The correction (the user's point):** if P vs NP were **provably independent
+of ZFC**, the situation changes categorically:
+- It stops being a bet — an independence proof *certifies* ZFC is silent either
+  way, removing the "you might be wrong" objection.
+- It becomes *like the G ladder*: P≠NP is best read as **a theorem of a stronger
+  system we haven't yet identified**, not a bare stipulation. The only reason it
+  looks like a stipulation now is that we lack that stronger system in hand.
+- Caveat: the quality of the independence proof matters. Robust, forcing-absolute
+  independence supports the "next foundation" reading; a weak/pathological
+  independence proof is less compelling.
+- Bottom line: it is **not "is it a matter of fact" that separates these cases,
+  but "do we have a certified silence of ZFC, or just a guess."** Certification
+  flips the verdict.
+
+### 9.4 The "prophetic" reading (Hofstadter, GEB) — and why it's a loose rhyme
+
+The user's direction intuition: every barrier result has pushed toward
+independence, making GEB prophetic.
+
+**What supports it:**
+- Relativization (Baker–Gill–Solovay), natural proofs (Razborov–Rudich), and
+  algebraization (Aaronson–Wigderson) each *eliminated a family of proof
+  techniques*. The systematic failure of every broad lower-bound method is real
+  evidence the proof (if it exists) won't look like anything known — and it
+  rhymes with GEB's thesis that a system's power and limits are intertwined.
+
+**What undercuts it:**
+- Barriers apply to *independence proofs too* — an independence result faces the
+  same gauntlet, so barriers don't differentially favor independence over "just
+  very hard."
+- Historical pattern is new *techniques* (non-relativizing, non-natural,
+  non-algebrizing), not new *axioms* — momentum is toward more cleverness, not
+  toward legislating.
+- **P vs NP has no self-reference.** GEB's core is self-reference (G says "I am
+  not provable"); P vs NP has none — no fixed point, no diagonalization over its
+  own provability. Its independence would be arithmetic incompleteness, a
+  different phenomenon from Gödelian self-reference, and we have no known method
+  to even produce that kind of independence (forcing is powerless).
+- Verdict: the intuition is a live hypothesis, not a trend line. Barriers cut
+  both ways; GEB is a loose rhyme, not a roadmap.
+
+### 9.5 The user's 90's insight: a hint of self-referential structure
+
+(Loose, not a proof — the user knows this. Recorded as an intuition.)
+
+- **P ≠ NP ⇒ OWFs** (loosely; the direction P≠NP ⇒ OWF is not known
+  unconditionally, but OWF ⇒ P≠NP *does* hold). Hardness of *deciding* is
+  entangled with hardness of *inverting*.
+- **OWFs ⇒ near-perfect hashing** (loosest link; note tension: a one-way hash
+  hides the structure a "fake fast algorithm" would need to exploit).
+- **Perfect hashing ⇒ fast NP-complete algorithms**: the concrete seed. A
+  perfect hash isolating a unique satisfying assignment is the territory of
+  **downward self-reducibility** and **Valiant–Vazirani isolation** — real,
+  studied self-referential-feeling structures: "decide if there's a solution by
+  isolating a unique one via hashing."
+
+**The genuine kernel of self-reference:** P vs NP asks whether *deciding* can
+outrun *verifying* — "can the machine that recognizes truth also find truth?" —
+a structural echo of self-reference. The concrete, honest instance is
+**downward self-reducibility** (SAT decides by reducing to smaller SAT), which
+is real mathematics.
+
+**But the direction of the reflex is productive, not toward independence:**
+self-reducibility and isolation are *tools for algorithms*, not a doorway out of
+ZFC. The self-structure found so far is algorithmic and productive. The
+self-reference P vs NP exhibits is *computational-reflex*, not
+*formal-incompleteness* — which is exactly why the intuition doesn't lead to
+independence. It's a good intuition to hold; it's just not the Gödelian kind.
+
+## 10. References
 
 - Numberphile video, Sep 4 2026: "The Immortal Kangaroo Sequence".
 - E. Angelini, M. Branicky, G. Resta, N. J. A. Sloane, D. W. Wilson,
